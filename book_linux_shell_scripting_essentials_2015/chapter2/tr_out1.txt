@@ -1,0 +1,1 @@
+This is a text file for demonstratingtr command.This input file contains digit 2 3 4 and 5as well.THIS IS CAPS LINEthis a lowercase line

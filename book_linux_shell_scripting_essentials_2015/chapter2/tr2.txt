@@ -1,0 +1,4 @@
+This is an input file.
+It contains special charactere like ?, ! etc
+&^var is an invalid shll variable.
+_var1_ is a valid shell variable

@@ -1,0 +1,429 @@
+    PID COMMAND
+      1 /sbin/init splash
+      2 [kthreadd]
+      3 [rcu_gp]
+      4 [rcu_par_gp]
+      6 [kworker/0:0H-kblockd]
+      9 [mm_percpu_wq]
+     10 [rcu_tasks_rude_]
+     11 [rcu_tasks_trace]
+     12 [ksoftirqd/0]
+     13 [rcu_sched]
+     14 [migration/0]
+     15 [idle_inject/0]
+     16 [cpuhp/0]
+     17 [cpuhp/1]
+     18 [idle_inject/1]
+     19 [migration/1]
+     20 [ksoftirqd/1]
+     22 [kworker/1:0H-events_highpri]
+     23 [cpuhp/2]
+     24 [idle_inject/2]
+     25 [migration/2]
+     26 [ksoftirqd/2]
+     28 [kworker/2:0H-kblockd]
+     29 [cpuhp/3]
+     30 [idle_inject/3]
+     31 [migration/3]
+     32 [ksoftirqd/3]
+     34 [kworker/3:0H-events_highpri]
+     35 [kdevtmpfs]
+     36 [netns]
+     37 [inet_frag_wq]
+     38 [kauditd]
+     41 [khungtaskd]
+     42 [oom_reaper]
+     43 [writeback]
+     44 [kcompactd0]
+     45 [ksmd]
+     46 [khugepaged]
+     93 [kintegrityd]
+     94 [kblockd]
+     95 [blkcg_punt_bio]
+     97 [tpm_dev_wq]
+     98 [ata_sff]
+     99 [md]
+    100 [edac-poller]
+    101 [devfreq_wq]
+    102 [watchdogd]
+    103 [kworker/3:1H-events_highpri]
+    105 [kswapd0]
+    106 [ecryptfs-kthrea]
+    108 [kthrotld]
+    109 [irq/122-pciehp]
+    110 [irq/123-aerdrv]
+    111 [irq/124-aerdrv]
+    112 [acpi_thermal_pm]
+    113 [vfio-irqfd-clea]
+    116 [ipv6_addrconf]
+    119 [kworker/1:1H-events_highpri]
+    126 [kstrp]
+    129 [zswap-shrink]
+    135 [charger_manager]
+    184 [scsi_eh_0]
+    186 [scsi_tmf_0]
+    187 [scsi_eh_1]
+    188 [scsi_tmf_1]
+    192 [irq/82-SYNA7DB5]
+    195 [kworker/2:1H-events_highpri]
+    196 [kworker/0:1H-kblockd]
+    219 [jbd2/sda5-8]
+    220 [ext4-rsv-conver]
+    273 /lib/systemd/systemd-journald
+    296 bpfilter_umh
+    314 /lib/systemd/systemd-udevd
+    325 [loop0]
+    345 [loop1]
+    354 [loop2]
+    362 [loop3]
+    378 [loop4]
+    390 [loop5]
+    391 [loop6]
+    392 [loop7]
+    420 [loop8]
+    421 [loop9]
+    422 [loop10]
+    423 [loop11]
+    425 [loop12]
+    436 [loop13]
+    443 [cfg80211]
+    445 [loop14]
+    450 [loop15]
+    458 [cryptd]
+    460 [loop16]
+    483 [loop17]
+    494 [card0-crtc0]
+    498 [card0-crtc1]
+    499 [card0-crtc2]
+    500 [loop18]
+    679 /lib/systemd/systemd-timesyncd
+    750 /usr/lib/accountsservice/accounts-daemon
+    751 /usr/sbin/acpid
+    754 avahi-daemon: running [rafael-Aspire-F5-573.local]
+    758 /usr/sbin/cron -f
+    762 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+    772 /usr/sbin/irqbalance --foreground
+    774 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+    777 /usr/lib/policykit-1/polkitd --no-debug
+    781 /usr/sbin/rsyslogd -n -iNONE
+    784 /usr/lib/snapd/snapd
+    786 /usr/libexec/switcheroo-control
+    788 /lib/systemd/systemd-logind
+    789 /lib/systemd/systemd-machined
+    792 /usr/sbin/thermald --systemd --dbus-enable --adaptive
+    793 /usr/lib/udisks2/udisksd
+    799 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+    818 avahi-daemon: chroot helper
+    853 /usr/bin/vmware-usbarbitrator
+    900 /usr/sbin/ModemManager
+    913 /usr/bin/containerd
+    920 /usr/sbin/bacula-fd -fP -c /etc/bacula/bacula-fd.conf
+    924 /usr/sbin/bacula-sd -fP -c /etc/bacula/bacula-sd.conf
+    940 /usr/sbin/gdm3
+    942 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+    955 /usr/sbin/libvirtd
+    956 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+   1015 /usr/sbin/mysqld
+   1066 /usr/lib/postgresql/13/bin/postgres -D /var/lib/postgresql/13/main -c config_file=/etc/postgresql/13/main/postgresql.conf
+   1069 /usr/lib/postgresql/12/bin/postgres -D /var/lib/postgresql/12/main -c config_file=/etc/postgresql/12/main/postgresql.conf
+   1086 /usr/libexec/rtkit-daemon
+   1243 /usr/lib/bluetooth/bluetoothd
+   1305 /usr/lib/upower/upowerd
+   1308 /usr/sbin/dnsmasq --conf-file=/var/lib/libvirt/dnsmasq/default.conf --leasefile-ro --dhcp-script=/usr/lib/libvirt/libvirt_leaseshelper
+   1309 /usr/sbin/dnsmasq --conf-file=/var/lib/libvirt/dnsmasq/default.conf --leasefile-ro --dhcp-script=/usr/lib/libvirt/libvirt_leaseshelper
+   1327 postgres: 13/main: checkpointer 
+   1328 postgres: 13/main: background writer 
+   1330 postgres: 13/main: walwriter 
+   1334 postgres: 13/main: autovacuum launcher 
+   1335 postgres: 13/main: stats collector 
+   1337 postgres: 13/main: logical replication launcher 
+   1501 postgres: 12/main: checkpointer   
+   1502 postgres: 12/main: background writer   
+   1503 postgres: 12/main: walwriter   
+   1504 postgres: 12/main: autovacuum launcher   
+   1505 postgres: 12/main: stats collector   
+   1506 postgres: 12/main: logical replication launcher   
+   1750 /usr/libexec/colord
+   1804 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+   1806 /usr/sbin/nmbd --foreground --no-process-group
+   1813 /usr/bin/whoopsie -f
+   1815 /usr/sbin/kerneloops --test
+   1818 /usr/sbin/kerneloops
+   1874 /usr/sbin/squid -sYC
+   1880 (squid-1) --kid squid-1 -sYC
+   1901 /usr/bin/vmnet-bridge -s 6 -d /var/run/vmnet-bridge-0.pid -n 0
+   1902 /usr/sbin/smbd --foreground --no-process-group
+   1905 (logfile-daemon) /var/log/squid/access.log
+   1936 /usr/sbin/smbd --foreground --no-process-group
+   1938 /usr/sbin/smbd --foreground --no-process-group
+   1948 /usr/sbin/smbd --foreground --no-process-group
+   2039 gdm-session-worker [pam/gdm-password]
+   2436 /usr/bin/vmnet-netifup -s 6 -d /var/run/vmnet-netifup-vmnet1.pid /dev/vmnet1 vmnet1
+   2449 /usr/bin/vmnet-dhcpd -s 6 -cf /etc/vmware/vmnet1/dhcpd/dhcpd.conf -lf /etc/vmware/vmnet1/dhcpd/dhcpd.leases -pf /var/run/vmnet-dhcpd-vmnet1.pid vmnet1
+   2455 /usr/bin/vmnet-natd -s 6 -m /etc/vmware/vmnet8/nat.mac -c /etc/vmware/vmnet8/nat/nat.conf
+   2459 /usr/bin/vmnet-netifup -s 6 -d /var/run/vmnet-netifup-vmnet8.pid /dev/vmnet8 vmnet8
+   2466 /usr/bin/vmnet-dhcpd -s 6 -cf /etc/vmware/vmnet8/dhcpd/dhcpd.conf -lf /etc/vmware/vmnet8/dhcpd/dhcpd.leases -pf /var/run/vmnet-dhcpd-vmnet8.pid vmnet8
+   2576 /usr/sbin/vmware-authdlauncher
+   2949 /usr/lib/postfix/sbin/master -w
+   2956 /usr/sbin/bacula-dir -fP -c /etc/bacula/bacula-dir.conf
+   2963 /lib/systemd/systemd --user
+   2964 (sd-pam)
+   2969 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+   2971 /usr/libexec/tracker-miner-fs
+   2973 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+   2978 /usr/bin/gnome-keyring-daemon --daemonize --login
+   2995 /usr/libexec/gvfsd
+   3000 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+   3006 /usr/libexec/gvfs-udisks2-volume-monitor
+   3013 /usr/libexec/gvfs-afc-volume-monitor
+   3018 /usr/libexec/gvfs-mtp-volume-monitor
+   3022 /usr/libexec/gvfs-gphoto2-volume-monitor
+   3026 /usr/libexec/gvfs-goa-volume-monitor
+   3030 /usr/libexec/goa-daemon
+   3037 /usr/libexec/goa-identity-service
+   3047 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+   3050 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+   3075 /usr/libexec/gnome-session-binary --systemd --systemd --session=ubuntu
+   3144 /usr/bin/ssh-agent /usr/bin/im-launch env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+   3165 /usr/libexec/at-spi-bus-launcher
+   3170 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+   3179 [krfcommd]
+   3182 /usr/libexec/gnome-session-ctl --monitor
+   3189 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+   3203 /usr/bin/gnome-shell
+   3227 ibus-daemon --panel disable --xim
+   3231 /usr/libexec/ibus-dconf
+   3232 /usr/libexec/ibus-extension-gtk3
+   3236 /usr/libexec/ibus-x11 --kill-daemon
+   3240 /usr/libexec/ibus-portal
+   3249 /usr/libexec/at-spi2-registryd --use-gnome-session
+   3253 /usr/libexec/xdg-permission-store
+   3257 /usr/libexec/gnome-shell-calendar-server
+   3264 /usr/libexec/evolution-source-registry
+   3274 /usr/libexec/evolution-calendar-factory
+   3278 /usr/libexec/dconf-service
+   3287 /usr/libexec/evolution-addressbook-factory
+   3304 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+   3312 /usr/libexec/gvfsd-trash --spawner :1.3 /org/gtk/gvfs/exec_spaw/0
+   3325 /usr/libexec/gsd-a11y-settings
+   3326 /usr/libexec/gsd-color
+   3328 /usr/libexec/gsd-datetime
+   3329 /usr/libexec/gsd-housekeeping
+   3331 /usr/libexec/gsd-keyboard
+   3332 /usr/libexec/gsd-media-keys
+   3335 /usr/libexec/gsd-power
+   3336 /usr/libexec/gsd-print-notifications
+   3341 /usr/libexec/gsd-rfkill
+   3342 /usr/libexec/gsd-screensaver-proxy
+   3343 /usr/libexec/gsd-sharing
+   3346 /usr/libexec/gsd-smartcard
+   3350 /usr/libexec/gsd-sound
+   3352 /usr/libexec/gsd-usb-protection
+   3353 /usr/libexec/gsd-wacom
+   3354 /usr/libexec/gsd-wwan
+   3358 /usr/libexec/gsd-xsettings
+   3390 /usr/libexec/gsd-printer
+   3398 /usr/lib/x86_64-linux-gnu/libexec/kdeconnectd
+   3411 /usr/libexec/gsd-disk-utility-notify
+   3415 /usr/libexec/evolution-data-server/evolution-alarm-notify
+   3450 /usr/libexec/ibus-engine-simple
+   3463 /snap/snap-store/558/usr/bin/snap-store --gapplication-service
+   3495 /usr/libexec/xdg-document-portal
+   3596 /usr/libexec/xdg-desktop-portal
+   3600 /usr/libexec/xdg-desktop-portal-gtk
+   4562 /usr/libexec/gvfsd-metadata
+   4565 update-notifier
+   5446 /usr/bin/nautilus --gapplication-service
+   5684 /usr/bin/gnome-calendar --gapplication-service
+   5688 /usr/bin/seahorse --gapplication-service
+   5770 /usr/lib/libreoffice/program/oosplash --writer
+   5810 /usr/lib/libreoffice/program/soffice.bin --writer
+   6145 /home/rafael/opt/foxitsoftware/foxitreader/FoxitReader /home/rafael/Downloads/conteúdo_plano_estudo/DOS DIREITOS E GARANTIAS FUNDAMENTAIS.pdf
+  11177 /opt/google/chrome/chrome --enable-crashpad
+  11183 cat
+  11184 cat
+  11186 /opt/google/chrome/chrome_crashpad_handler --monitor-self --monitor-self-annotation=ptype=crashpad-handler --database=/home/rafael/.config/google-chrome/Crash Reports --metrics-dir=/home/rafael/.config/google-chrome --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=lsb-release=Ubuntu 20.04.3 LTS --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=97.0.4692.71 --initial-client-fd=5 --shared-client-connection
+  11188 /opt/google/chrome/chrome_crashpad_handler --no-periodic-tasks --monitor-self-annotation=ptype=crashpad-handler --database=/home/rafael/.config/google-chrome/Crash Reports --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=lsb-release=Ubuntu 20.04.3 LTS --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=97.0.4692.71 --initial-client-fd=4 --shared-client-connection
+  11194 /opt/google/chrome/chrome --type=zygote --no-zygote-sandbox --enable-crashpad --crashpad-handler-pid=11186 --enable-crash-reporter=9fd40cad-60f2-4367-a17d-d02497f1b3e7, --change-stack-guard-on-fork=enable --enable-crashpad
+  11195 /opt/google/chrome/chrome --type=zygote --enable-crashpad --crashpad-handler-pid=11186 --enable-crash-reporter=9fd40cad-60f2-4367-a17d-d02497f1b3e7, --change-stack-guard-on-fork=enable --enable-crashpad
+  11196 /opt/google/chrome/nacl_helper
+  11199 /opt/google/chrome/chrome --type=zygote --enable-crashpad --crashpad-handler-pid=11186 --enable-crash-reporter=9fd40cad-60f2-4367-a17d-d02497f1b3e7, --change-stack-guard-on-fork=enable --enable-crashpad
+  11222 /opt/google/chrome/chrome --type=utility --utility-sub-type=network.mojom.NetworkService --field-trial-handle=14099858793533531305,12501358486810628765,131072 --lang=en-US --service-sandbox-type=none --enable-crashpad --crashpad-handler-pid=11186 --enable-crash-reporter=9fd40cad-60f2-4367-a17d-d02497f1b3e7, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --enable-crashpad
+  11224 /opt/google/chrome/chrome --type=utility --utility-sub-type=storage.mojom.StorageService --field-trial-handle=14099858793533531305,12501358486810628765,131072 --lang=en-US --service-sandbox-type=utility --enable-crashpad --crashpad-handler-pid=11186 --enable-crash-reporter=9fd40cad-60f2-4367-a17d-d02497f1b3e7, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100
+  11490 /opt/google/chrome/chrome --type=utility --utility-sub-type=audio.mojom.AudioService --field-trial-handle=14099858793533531305,12501358486810628765,131072 --lang=en-US --service-sandbox-type=none --enable-crashpad --crashpad-handler-pid=11186 --enable-crash-reporter=9fd40cad-60f2-4367-a17d-d02497f1b3e7, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --enable-crashpad
+  37884 [uas]
+  38638 /usr/libexec/gvfsd-network --spawner :1.3 /org/gtk/gvfs/exec_spaw/1
+  38651 /usr/libexec/gvfsd-dnssd --spawner :1.3 /org/gtk/gvfs/exec_spaw/3
+  40477 /usr/libexec/gnome-terminal-server
+  40485 bash
+  40549 man init
+  40561 pager
+  57175 man ls
+  57185 pager
+  58017 man ls
+  58027 pager
+  59721 man cp
+  59731 pager
+  63015 okular /home/rafael/Downloads/conteúdo_plano_estudo/Linux Administration A Beginner’s Guide ( PDFDrive ).pdf
+  63027 /usr/lib/x86_64-linux-gnu/libexec/kactivitymanagerd
+  63037 /usr/bin/kglobalaccel5
+  65000 man usermod
+  65010 pager
+  65256 dbus-launch --autolaunch 71c4b634dc7143e9a7578342376d5f0c --binary-syntax --close-stderr
+  65257 /usr/bin/dbus-daemon --syslog-only --fork --print-pid 5 --print-address 7 --session
+  65609 bash
+  67241 vim /etc/apache/apache.conf
+  67307 /usr/libexec/gvfsd-http --spawner :1.3 /org/gtk/gvfs/exec_spaw/4
+  67439 bash
+  70086 /usr/sbin/apache2 -k start
+  70094 vim /etc/apache2/apache2.conf
+  70236 vim /etc/apache2/mods-enabled/userdir.load
+  70660 vim /usr/lib64/
+  70756 su yyang
+  70758 bash
+  70926 sudo ls /var/log/apache2/
+  70982 sudo vi /var/log/apache2/access.log
+  70983 vi /var/log/apache2/access.log
+  71005 vim /etc/apache2/apache.conf
+  71008 vim /etc/apache2/apache2.conf
+  71050 vim /etc/apache2/apache2.conf
+  71068 less
+  72113 /usr/sbin/named -f -u bind
+  73525 sudo vim /etc/network/if-up.d/
+  73526 vim /etc/network/if-up.d/
+  73568 sudo vim /etc/network/if-down.d/
+  73569 vim /etc/network/if-down.d/
+  73594 /usr/lib/bluetooth/obexd
+  74903 sudo vim /etc/netconfig
+  74904 vim /etc/netconfig
+  74919 sudo vim /etc/networks
+  74920 vim /etc/networks
+  74969 sudo vim /etc/netplan/01-network-manager-all.yaml
+  74970 vim /etc/netplan/01-network-manager-all.yaml
+  78155 man link
+  78166 pager
+  78175 man unlink
+  78186 pager
+  78233 man unlink /etc/resolv.conf
+  78244 pager
+  78629 /lib/systemd/systemd-resolved
+  78891 /usr/sbin/NetworkManager --no-daemon
+  80281 okular /home/rafael/LIVROS/Comunicação de Dados e Redes de Computadores ( PDFDrive ).pdf
+ 117734 [xfsalloc]
+ 117735 [xfs_mru_cache]
+ 117739 [jfsIO]
+ 117740 [jfsCommit]
+ 117741 [jfsCommit]
+ 117742 [jfsCommit]
+ 117743 [jfsCommit]
+ 117744 [jfsSync]
+ 119640 /usr/bin/freshclam -d --foreground=true
+ 120999 /usr/sbin/clamd --foreground=true
+ 143071 sudo wireshark
+ 143072 wireshark
+ 143132 /usr/bin/dumpcap -n -i wlx001f1f66d021 -y EN10MB -Z none
+ 143650 bash
+ 169474 /usr/lib/firefox/firefox -new-window
+ 169544 /usr/lib/firefox/firefox -contentproc -parentBuildID 20220106144528 -prefsLen 1 -prefMapSize 247533 -appDir /usr/lib/firefox/browser 169474 true socket
+ 169576 /usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 65 -prefMapSize 247533 -jsInitLen 279340 -parentBuildID 20220106144528 -appDir /usr/lib/firefox/browser 169474 true tab
+ 169626 /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 4843 -prefMapSize 247533 -jsInitLen 279340 -parentBuildID 20220106144528 -appDir /usr/lib/firefox/browser 169474 true tab
+ 169875 /usr/lib/speech-dispatcher-modules/sd_espeak-ng /etc/speech-dispatcher/modules/espeak-ng.conf
+ 169885 /usr/lib/speech-dispatcher-modules/sd_dummy /etc/speech-dispatcher/modules/dummy.conf
+ 169888 /usr/lib/speech-dispatcher-modules/sd_generic /etc/speech-dispatcher/modules/mary-generic.conf
+ 169891 /usr/bin/speech-dispatcher --spawn --communication-method unix_socket --socket-path /run/user/1000/speech-dispatcher/speechd.sock
+ 170149 /usr/lib/firefox/firefox -contentproc -parentBuildID 20220106144528 -prefsLen 9438 -prefMapSize 247533 -appDir /usr/lib/firefox/browser 169474 true rdd
+ 171881 virsh
+ 172234 /usr/bin/python3 /usr/share/virt-manager/virt-manager
+ 173795 /bin/bash /usr/bin/brave-browser-stable
+ 173801 cat
+ 173802 cat
+ 173803 /opt/brave.com/brave/brave --enable-crashpad
+ 173805 /opt/brave.com/brave/chrome_crashpad_handler --monitor-self --monitor-self-annotation=ptype=crashpad-handler --database=/home/rafael/.config/BraveSoftware/Brave-Browser/Crash Reports --url=https://cr.brave.com --annotation=lsb-release=Ubuntu 20.04.3 LTS --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=97.1.34.80 --initial-client-fd=5 --shared-client-connection
+ 173807 /opt/brave.com/brave/chrome_crashpad_handler --no-periodic-tasks --monitor-self-annotation=ptype=crashpad-handler --database=/home/rafael/.config/BraveSoftware/Brave-Browser/Crash Reports --url=https://cr.brave.com --annotation=lsb-release=Ubuntu 20.04.3 LTS --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=97.1.34.80 --initial-client-fd=4 --shared-client-connection
+ 173813 /opt/brave.com/brave/brave --type=zygote --no-zygote-sandbox --enable-crashpad --crashpad-handler-pid=173805 --enable-crash-reporter=, --change-stack-guard-on-fork=enable --enable-crashpad
+ 173814 /opt/brave.com/brave/brave --type=zygote --enable-crashpad --crashpad-handler-pid=173805 --enable-crash-reporter=, --change-stack-guard-on-fork=enable --enable-crashpad
+ 173816 /opt/brave.com/brave/brave --type=zygote --enable-crashpad --crashpad-handler-pid=173805 --enable-crash-reporter=, --change-stack-guard-on-fork=enable --enable-crashpad
+ 173835 /opt/brave.com/brave/brave --type=gpu-process --field-trial-handle=905203117542778660,4904617284940609391,131072 --enable-crashpad --crashpad-handler-pid=173805 --enable-crash-reporter=, --change-stack-guard-on-fork=enable --gpu-preferences=UAAAAAAAAAAgAAAIAAAAAAAAAAAAAAAAAABgAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAABgAAAAAAAAAGAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAA= --shared-files
+ 173840 /opt/brave.com/brave/brave --type=utility --utility-sub-type=network.mojom.NetworkService --field-trial-handle=905203117542778660,4904617284940609391,131072 --lang=en-US --service-sandbox-type=none --enable-crashpad --crashpad-handler-pid=173805 --enable-crash-reporter=, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --enable-crashpad
+ 173847 /opt/brave.com/brave/brave --type=utility --utility-sub-type=storage.mojom.StorageService --field-trial-handle=905203117542778660,4904617284940609391,131072 --lang=en-US --service-sandbox-type=utility --enable-crashpad --crashpad-handler-pid=173805 --enable-crash-reporter=, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100
+ 173986 /opt/brave.com/brave/brave --type=renderer --enable-crashpad --crashpad-handler-pid=173805 --enable-crash-reporter=, --disable-client-side-phishing-detection --display-capture-permissions-policy-allowed --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --brave_session_token=1106648982296924804 --field-trial-handle=905203117542778660,4904617284940609391,131072 --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=10 --launch-time-ticks=310455570297 --shared-files=v8_context_snapshot_data:100
+ 174001 /opt/brave.com/brave/brave --type=utility --utility-sub-type=audio.mojom.AudioService --field-trial-handle=905203117542778660,4904617284940609391,131072 --lang=en-US --service-sandbox-type=none --enable-crashpad --crashpad-handler-pid=173805 --enable-crash-reporter=, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --enable-crashpad
+ 179119 du
+ 179349 /usr/sbin/virtlogd
+ 184156 gnome-control-center wifi
+ 185041 [kworker/u9:1-i915_flip]
+ 187237 /usr/sbin/apache2 -k start
+ 187238 /usr/sbin/apache2 -k start
+ 187239 /usr/sbin/apache2 -k start
+ 187240 /usr/sbin/apache2 -k start
+ 187241 /usr/sbin/apache2 -k start
+ 187242 /usr/sbin/cupsd -l
+ 187243 /usr/sbin/cups-browsed
+ 187257 (pinger)
+ 201332 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=11186 --enable-crash-reporter=9fd40cad-60f2-4367-a17d-d02497f1b3e7, --display-capture-permissions-policy-allowed --origin-trial-disabled-features=SecurePaymentConfirmation --change-stack-guard-on-fork=enable --field-trial-handle=14099858793533531305,12501358486810628765,131072 --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=986 --launch-time-ticks=378681408020 --shared-files=v8_context_snapshot_data:100
+ 201506 /usr/lib/firefox/firefox -contentproc -childID 85 -isForBrowser -prefsLen 9670 -prefMapSize 247533 -jsInitLen 279340 -parentBuildID 20220106144528 -appDir /usr/lib/firefox/browser 169474 true tab
+ 201890 /usr/lib/firefox/firefox -contentproc -childID 98 -isForBrowser -prefsLen 9670 -prefMapSize 247533 -jsInitLen 279340 -parentBuildID 20220106144528 -appDir /usr/lib/firefox/browser 169474 true tab
+ 201931 /usr/lib/firefox/firefox -contentproc -childID 100 -isForBrowser -prefsLen 9670 -prefMapSize 247533 -jsInitLen 279340 -parentBuildID 20220106144528 -appDir /usr/lib/firefox/browser 169474 true tab
+ 202582 bash
+ 202621 man chsh
+ 202631 pager
+ 202886 /usr/lib/firefox/firefox -contentproc -childID 111 -isForBrowser -prefsLen 9670 -prefMapSize 247533 -jsInitLen 279340 -parentBuildID 20220106144528 -appDir /usr/lib/firefox/browser 169474 true tab
+ 203838 man chmod
+ 203849 pager
+ 204776 [kworker/u9:2+i915_flip]
+ 205195 man wc
+ 205205 pager
+ 205609 bash
+ 205648 bash
+ 206741 /opt/google/chrome/chrome --type=gpu-process --field-trial-handle=14099858793533531305,12501358486810628765,131072 --enable-crashpad --crashpad-handler-pid=11186 --enable-crash-reporter=9fd40cad-60f2-4367-a17d-d02497f1b3e7, --change-stack-guard-on-fork=enable --gpu-preferences=UAAAAAAAAAAgAAAIAAAAAAAAAAAAAAAAAABgAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAABgAAAAAAAAAGAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAA= --shared-files
+ 206756 /opt/brave.com/brave/brave --type=renderer --enable-crashpad --crashpad-handler-pid=173805 --enable-crash-reporter=, --extension-process --disable-client-side-phishing-detection --display-capture-permissions-policy-allowed --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --brave_session_token=1106648982296924804 --field-trial-handle=905203117542778660,4904617284940609391,131072 --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=23 --launch-time-ticks=393856143393 --shared-files=v8_context_snapshot_data:100
+ 206768 [kworker/0:2-events]
+ 208248 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=11186 --enable-crash-reporter=9fd40cad-60f2-4367-a17d-d02497f1b3e7, --display-capture-permissions-policy-allowed --origin-trial-disabled-features=SecurePaymentConfirmation --change-stack-guard-on-fork=enable --field-trial-handle=14099858793533531305,12501358486810628765,131072 --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=290 --launch-time-ticks=401201300882 --shared-files=v8_context_snapshot_data:100
+ 208268 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=11186 --enable-crash-reporter=9fd40cad-60f2-4367-a17d-d02497f1b3e7, --display-capture-permissions-policy-allowed --origin-trial-disabled-features=SecurePaymentConfirmation --change-stack-guard-on-fork=enable --field-trial-handle=14099858793533531305,12501358486810628765,131072 --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=646 --launch-time-ticks=401204889008 --shared-files=v8_context_snapshot_data:100
+ 208279 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=11186 --enable-crash-reporter=9fd40cad-60f2-4367-a17d-d02497f1b3e7, --extension-process --display-capture-permissions-policy-allowed --origin-trial-disabled-features=SecurePaymentConfirmation --change-stack-guard-on-fork=enable --field-trial-handle=14099858793533531305,12501358486810628765,131072 --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=993 --launch-time-ticks=401205026379 --shared-files=v8_context_snapshot_data:100
+ 208290 /opt/google/chrome/chrome --type=ppapi --field-trial-handle=14099858793533531305,12501358486810628765,131072 --lang=en-US --enable-crashpad --crashpad-handler-pid=11186 --enable-crash-reporter=9fd40cad-60f2-4367-a17d-d02497f1b3e7, --change-stack-guard-on-fork=enable --shared-files
+ 208297 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=11186 --enable-crash-reporter=9fd40cad-60f2-4367-a17d-d02497f1b3e7, --display-capture-permissions-policy-allowed --origin-trial-disabled-features=SecurePaymentConfirmation --change-stack-guard-on-fork=enable --field-trial-handle=14099858793533531305,12501358486810628765,131072 --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=740 --launch-time-ticks=401208341519 --shared-files=v8_context_snapshot_data:100
+ 208313 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=11186 --enable-crash-reporter=9fd40cad-60f2-4367-a17d-d02497f1b3e7, --display-capture-permissions-policy-allowed --origin-trial-disabled-features=SecurePaymentConfirmation --change-stack-guard-on-fork=enable --field-trial-handle=14099858793533531305,12501358486810628765,131072 --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=995 --launch-time-ticks=401208900847 --shared-files=v8_context_snapshot_data:100
+ 208325 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=11186 --enable-crash-reporter=9fd40cad-60f2-4367-a17d-d02497f1b3e7, --display-capture-permissions-policy-allowed --origin-trial-disabled-features=SecurePaymentConfirmation --change-stack-guard-on-fork=enable --field-trial-handle=14099858793533531305,12501358486810628765,131072 --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=996 --launch-time-ticks=401210275918 --shared-files=v8_context_snapshot_data:100
+ 208375 /usr/lib/firefox/firefox -contentproc -childID 113 -isForBrowser -prefsLen 9670 -prefMapSize 247533 -jsInitLen 279340 -parentBuildID 20220106144528 -appDir /usr/lib/firefox/browser 169474 true tab
+ 208379 /usr/lib/firefox/firefox -contentproc -childID 114 -isForBrowser -prefsLen 9670 -prefMapSize 247533 -jsInitLen 279340 -parentBuildID 20220106144528 -appDir /usr/lib/firefox/browser 169474 true tab
+ 208491 /usr/lib/firefox/firefox -contentproc -childID 115 -isForBrowser -prefsLen 9670 -prefMapSize 247533 -jsInitLen 279340 -parentBuildID 20220106144528 -appDir /usr/lib/firefox/browser 169474 true tab
+ 208498 /usr/lib/firefox/firefox -contentproc -childID 116 -isForBrowser -prefsLen 9670 -prefMapSize 247533 -jsInitLen 279340 -parentBuildID 20220106144528 -appDir /usr/lib/firefox/browser 169474 true tab
+ 208534 /usr/lib/firefox/firefox -contentproc -childID 117 -isForBrowser -prefsLen 9670 -prefMapSize 247533 -jsInitLen 279340 -parentBuildID 20220106144528 -appDir /usr/lib/firefox/browser 169474 true tab
+ 208555 /usr/lib/firefox/firefox -contentproc -childID 118 -isForBrowser -prefsLen 9670 -prefMapSize 247533 -jsInitLen 279340 -parentBuildID 20220106144528 -appDir /usr/lib/firefox/browser 169474 true tab
+ 208584 /usr/lib/firefox/firefox -contentproc -childID 119 -isForBrowser -prefsLen 9670 -prefMapSize 247533 -jsInitLen 279340 -parentBuildID 20220106144528 -appDir /usr/lib/firefox/browser 169474 true tab
+ 208916 patch
+ 208963 man patch
+ 208973 pager
+ 209024 man patch
+ 209034 pager
+ 209421 tail -f /dev/null
+ 209431 tail -f /dev/null
+ 209438 tail -f /dev/null
+ 209447 tail -f /dev/null
+ 209471 tail -f /dev/null
+ 209558 man tail
+ 209568 pager
+ 209664 less
+ 210611 [kworker/3:1-events]
+ 210613 [kworker/1:3-cgroup_destroy]
+ 210620 [kworker/u8:10-i915]
+ 210637 [kworker/u8:27-i915]
+ 210667 [irq/129-mei_me]
+ 210917 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=11186 --enable-crash-reporter=9fd40cad-60f2-4367-a17d-d02497f1b3e7, --display-capture-permissions-policy-allowed --origin-trial-disabled-features=SecurePaymentConfirmation --change-stack-guard-on-fork=enable --field-trial-handle=14099858793533531305,12501358486810628765,131072 --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=982 --launch-time-ticks=407763992896 --shared-files=v8_context_snapshot_data:100
+ 211012 [ath9k-hwrng]
+ 211110 pickup -l -t unix -u -c
+ 211111 qmgr -l -t unix -u
+ 211125 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=11186 --enable-crash-reporter=9fd40cad-60f2-4367-a17d-d02497f1b3e7, --display-capture-permissions-policy-allowed --origin-trial-disabled-features=SecurePaymentConfirmation --change-stack-guard-on-fork=enable --field-trial-handle=14099858793533531305,12501358486810628765,131072 --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=1005 --launch-time-ticks=407789923028 --shared-files=v8_context_snapshot_data:100
+ 211139 /opt/google/chrome/chrome --type=renderer --enable-crashpad --crashpad-handler-pid=11186 --enable-crash-reporter=9fd40cad-60f2-4367-a17d-d02497f1b3e7, --display-capture-permissions-policy-allowed --origin-trial-disabled-features=SecurePaymentConfirmation --change-stack-guard-on-fork=enable --field-trial-handle=14099858793533531305,12501358486810628765,131072 --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=1006 --launch-time-ticks=407791193149 --shared-files=v8_context_snapshot_data:100
+ 211213 [kworker/2:0-events]
+ 211401 [kworker/0:0]
+ 211549 [kworker/2:1-events]
+ 211668 [kworker/3:0-events]
+ 211818 /usr/lib/firefox/firefox -contentproc -childID 120 -isForBrowser -prefsLen 9670 -prefMapSize 247533 -jsInitLen 279340 -parentBuildID 20220106144528 -appDir /usr/lib/firefox/browser 169474 true tab
+ 211834 [kworker/u8:0-i915]
+ 211980 [kworker/1:0-events]
+ 212036 [kworker/u9:0]
+ 212048 /usr/libexec/tracker-store
+ 212063 bash redirection.sh
+ 212064 ps -A -o pid -o command

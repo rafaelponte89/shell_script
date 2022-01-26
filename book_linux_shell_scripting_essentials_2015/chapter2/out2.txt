@@ -1,0 +1,6 @@
+/usr/bin/amuFormat.sh
+/usr/bin/dockerd-rootless-setuptool.sh
+/usr/bin/dockerd-rootless.sh
+/usr/bin/gettext.sh
+/usr/bin/vmware-license-check.sh
+/usr/bin/vmware-license-enter.sh
